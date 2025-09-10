@@ -69,3 +69,14 @@ console.log(myStr("Hello","World"))
 
 // 🎭Exercise 5: Variable Scope Challenge
 
+let scope=(ts1,ts2,ts3)=>{
+    if (true){
+
+        var num=ts1
+        let str=ts2
+        const type=ts3
+    }
+    // console.log(num,str,type) ==> not working because block scope
+    // console.log(num) ==> working because function scope 
+}
+console.log(scope(2,3,4))
