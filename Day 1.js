@@ -27,4 +27,27 @@ const dataTypeDetective=(value1,value2,value3,value4,value5)=>{
     console.log(myStr)
 }
 
-console.log(dataTypeDetective("Hello",42,true,null,undefined));
+// console.log(dataTypeDetective("Hello",42,true,null,undefined));
+
+
+
+// Exercise 3: Math Operations
+
+const myCalculator=(value1,value2)=>{
+    const sum=value1+value2
+    const sub=value1-value2
+    const multi=value1*value2
+    const divide=value1/value2
+    const reminder=value1%value2
+    console.log(`
+        Sum =${sum}
+        Subtract =${sub}
+        Multiply =${multi}
+        Divide =${divide}
+        reminder =${reminder}
+        
+        `)   
+}
+
+console.log(myCalculator(2,3))
+
