@@ -49,5 +49,23 @@ const myCalculator=(value1,value2)=>{
         `)   
 }
 
-console.log(myCalculator(2,3))
+// console.log(myCalculator(2,3))
+
+// Exercise 4: String Manipulation
+
+const myStr=(str1,str2)=>{
+    const string1=str1
+    const string2=str2
+    console.log(
+        `concatenation=${string1} ${string2}`
+    )
+}
+
+console.log(myStr("Hello","World"))
+
+
+
+
+
+// 🎭Exercise 5: Variable Scope Challenge
 
